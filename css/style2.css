@@ -1,0 +1,124 @@
+/* General Settings */
+*{
+  margin: 0px;
+  padding: 0;
+}
+/* Header*/
+.header{
+  background: #ed7801;
+  height: 80px;
+  grid-template-columns: 1fr 7fr;
+  display: grid;
+}
+/* Header Logo */
+.logo{
+  background-image: url(../images/burger.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 70px;
+  max-width: 70px;
+  height: auto;
+  width: auto;
+  margin-left: 98px;
+  margin-top: 5px;
+}
+/*Menu*/
+a {
+	text-decoration: none;
+}
+.menu{
+	padding: 0px;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(3,1fr);
+}
+li{
+	padding: 26px;
+	list-style: none;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	transition: all 0.2s ease-out;
+  font-family: Britannic;
+}
+li:hover{
+	color: #482d11;
+	transition: all 0.2s ease-out;
+}
+/* Mini Food Showcase */
+.showcase{
+  height: 98px;
+  background-image: url(../images/showcase.png);
+  background-repeat: none;
+}
+.showcase-bottom{
+  background: #ed7801;
+  height: 45px;
+}
+.text{
+  font-family: Britannic;
+  color: white;
+  padding: 10px;
+  font-size: 20px
+}
+/*Menu of Foods*/
+.food-title{
+  font-family: Britannic;
+  text-align: center;
+  font-size: 28px;
+}
+.title-menu{
+  margin-top: 10px;
+  text-align: center;
+  font-family: Britannic;
+  font-size: 40px;
+  text-decoration: underline;
+  color: #482d11;
+}
+.menu{
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  display: grid;
+  grid-gap: 10px;
+}
+/* Food Picture Settings */
+img{
+  margin-left: 68px;
+  transition: transform .2s;
+}
+img:hover{
+  transform: scale(1.1);
+}
+/* Footer */
+.footer{
+  margin-top: 30px;
+  height: 15vh;
+  background: white;
+  grid-template-rows: 1fr 1fr 1fr;
+  display: grid;
+}
+.text1{
+  font-family: Britannic;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 20px
+}
+.showcase-top{
+  background: #ed7801;
+  height: 45px;
+}
+.footer-topdesign{
+  height: 114px;
+  background-image: url(../images/fries.png);
+  background-repeat: no-repeat;
+}
+.footer-bottom{
+  height: 125px;
+  background: #2d2d2d;
+  padding: 0px 50px 0px 50px;
+  color: white;
+  font-family: Britannic;
+  font-size: 20px;
+  text-align: center;
+}
